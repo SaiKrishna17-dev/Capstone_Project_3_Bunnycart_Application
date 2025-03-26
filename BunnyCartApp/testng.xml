@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Bunnycart Test Suite">
+    <test name="Create Account Test">
+        <classes>
+            <class name="com.Bunnycart.TestRunner.CreateAccountTestRunner"/>
+        </classes>
+    </test>
+    
+    <test name="Add To Cart Test">
+        <classes>
+            <class name="com.Bunnycart.TestRunner.AddToCartTestRunner"/>
+        </classes>
+    </test>
+    
+     <test name="SignIn Test">
+        <classes>
+            <class name="com.Bunnycart.TestRunner.SignInTestRunner"/>
+        </classes>
+    </test>
+    
+    <test name="Add Multiple Products to cart">
+        <classes>
+            <class name="com.Bunnycart.TestRunner.AddMultipleProductsToCartTestRunner"/>
+        </classes>
+    </test>
+    
+    <test name="LogOut Test">
+        <classes>
+            <class name="com.Bunnycart.TestRunner.LogOutTestRunner"/>
+        </classes>
+    </test>
+    
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+    
+    
+</suite>

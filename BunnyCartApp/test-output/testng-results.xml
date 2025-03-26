@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-25T01:00:59 IST" name="Bunnycart Test Suite" finished-at="2025-03-25T01:04:20 IST" duration-ms="201236">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.CreateAccountTestRunner@73302995]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.AddToCartTestRunner@21ba0741]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.SignInTestRunner@56673b2c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.AddMultipleProductsToCartTestRunner@62010f5c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.LogOutTestRunner@5c44c582]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-25T01:00:59 IST" name="Create Account Test" finished-at="2025-03-25T01:01:26 IST" duration-ms="27652">
+      <class name="com.Bunnycart.TestRunner.CreateAccountTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Bunnycart.TestRunner.CreateAccountTestRunner@73302995]" started-at="2025-03-25T01:00:59 IST" name="setUpClass" finished-at="2025-03-25T01:00:59 IST" duration-ms="880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38093ffe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.CreateAccountTestRunner@73302995]" started-at="2025-03-25T01:00:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T01:01:26 IST" duration-ms="26540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating Account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Account with Valid and Invalid Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Bunnycart.TestRunner.CreateAccountTestRunner@73302995]" started-at="2025-03-25T01:01:26 IST" name="tearDownClass" finished-at="2025-03-25T01:01:26 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Bunnycart.TestRunner.CreateAccountTestRunner -->
+    </test> <!-- Create Account Test -->
+    <test started-at="2025-03-25T01:01:26 IST" name="Add To Cart Test" finished-at="2025-03-25T01:02:06 IST" duration-ms="39918">
+      <class name="com.Bunnycart.TestRunner.AddToCartTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Bunnycart.TestRunner.AddToCartTestRunner@21ba0741]" started-at="2025-03-25T01:01:26 IST" name="setUpClass" finished-at="2025-03-25T01:01:26 IST" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4713b631]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.AddToCartTestRunner@21ba0741]" started-at="2025-03-25T01:01:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T01:02:06 IST" duration-ms="39839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To sign in and add a product to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login and Add to Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Bunnycart.TestRunner.AddToCartTestRunner@21ba0741]" started-at="2025-03-25T01:02:06 IST" name="tearDownClass" finished-at="2025-03-25T01:02:06 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Bunnycart.TestRunner.AddToCartTestRunner -->
+    </test> <!-- Add To Cart Test -->
+    <test started-at="2025-03-25T01:02:06 IST" name="SignIn Test" finished-at="2025-03-25T01:02:55 IST" duration-ms="48959">
+      <class name="com.Bunnycart.TestRunner.SignInTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Bunnycart.TestRunner.SignInTestRunner@56673b2c]" started-at="2025-03-25T01:02:06 IST" name="setUpClass" finished-at="2025-03-25T01:02:06 IST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a0d2c80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.SignInTestRunner@56673b2c]" started-at="2025-03-25T01:02:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T01:02:26 IST" duration-ms="19866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["SignIn with valid and invalid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign with Valid and Invalid Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.SignInTestRunner@56673b2c]" started-at="2025-03-25T01:02:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T01:02:55 IST" duration-ms="29016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["SignIn with valid and invalid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign with Valid and Invalid Data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Bunnycart.TestRunner.SignInTestRunner@56673b2c]" started-at="2025-03-25T01:02:55 IST" name="tearDownClass" finished-at="2025-03-25T01:02:55 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Bunnycart.TestRunner.SignInTestRunner -->
+    </test> <!-- SignIn Test -->
+    <test started-at="2025-03-25T01:02:55 IST" name="Add Multiple Products to cart" finished-at="2025-03-25T01:03:55 IST" duration-ms="59654">
+      <class name="com.Bunnycart.TestRunner.AddMultipleProductsToCartTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Bunnycart.TestRunner.AddMultipleProductsToCartTestRunner@62010f5c]" started-at="2025-03-25T01:02:55 IST" name="setUpClass" finished-at="2025-03-25T01:02:55 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d4d0a14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.AddMultipleProductsToCartTestRunner@62010f5c]" started-at="2025-03-25T01:02:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T01:03:55 IST" duration-ms="59613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Multiple Products to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Adding Multiple Products to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Bunnycart.TestRunner.AddMultipleProductsToCartTestRunner@62010f5c]" started-at="2025-03-25T01:03:55 IST" name="tearDownClass" finished-at="2025-03-25T01:03:55 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Bunnycart.TestRunner.AddMultipleProductsToCartTestRunner -->
+    </test> <!-- Add Multiple Products to cart -->
+    <test started-at="2025-03-25T01:03:55 IST" name="LogOut Test" finished-at="2025-03-25T01:04:20 IST" duration-ms="24929">
+      <class name="com.Bunnycart.TestRunner.LogOutTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Bunnycart.TestRunner.LogOutTestRunner@5c44c582]" started-at="2025-03-25T01:03:55 IST" name="setUpClass" finished-at="2025-03-25T01:03:55 IST" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cca3e8c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Bunnycart.TestRunner.LogOutTestRunner@5c44c582]" started-at="2025-03-25T01:03:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T01:04:20 IST" duration-ms="24854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check sign out and verfy session ends"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Unknown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Bunnycart.TestRunner.LogOutTestRunner@5c44c582]" started-at="2025-03-25T01:04:20 IST" name="tearDownClass" finished-at="2025-03-25T01:04:20 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Bunnycart.TestRunner.LogOutTestRunner -->
+    </test> <!-- LogOut Test -->
+  </suite> <!-- Bunnycart Test Suite -->
+</testng-results>
